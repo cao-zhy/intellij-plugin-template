@@ -27,6 +27,9 @@
 
   <actions>
     <!-- Add your actions here -->
+    <group class="com.github.czy211.ij.template.TemplatesGroup" id="com.github.czy211.ij.template.TemplatesGroup">
+      <add-to-group group-id="NewGroup" relative-to-action="NewFromTemplate" anchor="before"/>
+    </group>
   </actions>
 
 </idea-plugin>
