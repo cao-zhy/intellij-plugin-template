@@ -24,6 +24,8 @@
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
     <internalFileTemplate name="EditorConfig"/>
+    <internalFileTemplate name="MyBatis Config"/>
+    <internalFileTemplate name="MyBatis Mapper"/>
   </extensions>
 
   <actions>
@@ -32,6 +34,10 @@
       <add-to-group group-id="NewGroup" relative-to-action="NewFromTemplate" anchor="before"/>
       <action class="com.github.czy211.ij.template.CreateEditorConfigFileAction"
               id="com.github.czy211.ij.template.CreateEditorConfigFileAction">
+        <add-to-group group-id="com.github.czy211.ij.template.TemplatesGroup"/>
+      </action>
+      <action class="com.github.czy211.ij.template.CreateMyBatisFileAction" 
+              id="com.github.czy211.ij.template.CreateMyBatisFileAction">
         <add-to-group group-id="com.github.czy211.ij.template.TemplatesGroup"/>
       </action>
     </group>
