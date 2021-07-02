@@ -26,6 +26,7 @@
     <internalFileTemplate name="EditorConfig"/>
     <internalFileTemplate name="MyBatis Config"/>
     <internalFileTemplate name="MyBatis Mapper"/>
+    <internalFileTemplate name="HTML"/>
   </extensions>
 
   <actions>
@@ -38,6 +39,10 @@
       </action>
       <action class="com.github.czy211.ij.template.CreateMyBatisFileAction" 
               id="com.github.czy211.ij.template.CreateMyBatisFileAction">
+        <add-to-group group-id="com.github.czy211.ij.template.TemplatesGroup"/>
+      </action>
+      <action class="com.github.czy211.ij.template.CreateHtmlFileAction"
+              id="com.github.czy211.ij.template.CreateHtmlFileAction">
         <add-to-group group-id="com.github.czy211.ij.template.TemplatesGroup"/>
       </action>
     </group>
