@@ -26,6 +26,7 @@
     <internalFileTemplate name="MyBatis Config"/>
     <internalFileTemplate name="MyBatis Mapper"/>
     <internalFileTemplate name="HTML"/>
+    <defaultLiveTemplatesProvider implementation="com.github.czy211.ij.template.UserLiveTemplateProvider"/>
   </extensions>
 
   <actions>

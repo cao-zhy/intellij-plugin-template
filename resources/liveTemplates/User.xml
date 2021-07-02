@@ -1,0 +1,14 @@
+<templateSet group="User">
+  <template name="sop" value="System.out.print($END$);" description="Prints a string" toReformat="true"
+            toShortenFQNames="true">
+    <context>
+      <option name="JAVA_STATEMENT" value="true"/>
+    </context>
+  </template>
+  <template name="svu" value="private static final long serialVersionUID = 1L;" description="Defines serialVersionUID"
+            toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_DECLARATION" value="true"/>
+    </context>
+  </template>
+</templateSet>
