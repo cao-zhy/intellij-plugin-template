@@ -1,4 +1,4 @@
-<idea-plugin>
+<idea-plugin require-restart="false">
   <id>com.github.czy211.ij.template</id>
   <name>Template</name>
   <version>1.0.0</version>
