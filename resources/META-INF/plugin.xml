@@ -1,0 +1,32 @@
+<idea-plugin>
+  <id>com.github.czy211.ij.template</id>
+  <name>Template</name>
+  <version>1.0.0</version>
+  <vendor email="czy211@hotmail.com" url="https://github.com/czy211">caozhy</vendor>
+
+  <description><![CDATA[
+    Add some file templates and live templates.
+    <br><br>
+    添加一些文件模板和实时模板。
+  ]]></description>
+
+  <change-notes><![CDATA[
+    <h3>v1.0.0</h3>
+  ]]></change-notes>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
+       on how to target different products -->
+  <depends>com.intellij.modules.platform</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
