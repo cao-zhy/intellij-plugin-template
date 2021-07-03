@@ -45,7 +45,7 @@
     <!-- Add your actions here -->
     <group class="com.github.czy211.ij.template.TemplateGroup" id="com.github.czy211.ij.template.TemplateGroup">
       <add-to-group group-id="NewGroup" relative-to-action="NewFromTemplate" anchor="before"/>
-      <action class="com.github.czy211.ij.template.CreateMyBatisFileAction" 
+      <action class="com.github.czy211.ij.template.CreateMyBatisFileAction"
               id="com.github.czy211.ij.template.CreateMyBatisFileAction">
         <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
       </action>
@@ -54,6 +54,11 @@
         <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
       </action>
     </group>
+    <action class="com.github.czy211.ij.template.InitModuleAction" id="com.github.czy211.ij.template.InitModuleAction">
+      <add-to-group group-id="FileOpenGroup" relative-to-action="CloseProject" anchor="before"/>
+      <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
+      <add-to-group group-id="NewGroup" relative-to-action="NewFromTemplate" anchor="before"/>
+    </action>
   </actions>
 
 </idea-plugin>
