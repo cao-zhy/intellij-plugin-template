@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.github.czy211.ij.template</id>
   <name>Template</name>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <vendor email="czy211@hotmail.com" url="https://github.com/czy211">caozhy</vendor>
 
   <description><![CDATA[
@@ -11,17 +11,19 @@
   ]]></description>
 
   <change-notes><![CDATA[
-    <h3>v1.0.0</h3>
+    <h3>v1.1.0</h3>
+    Initialize module with:
     <ul>
-      <li>Create MyBatis file from template
-      <li>Create HTML file from template
-      <li>Add live templates "sop" and "svu"
+      <li>Add a README.md file
+      <li>Add .gitignore
+      <li>Choose a license
     </ul>
     <br><br>
+    初始化模块：
     <ul>
-       <li>从模板创建 MyBatis 文件
-       <li>从模板创建 HTML 文件
-       <li>添加实时模板 "sop" 和 "svu"
+       <li>创建 README.md 文件
+       <li>创建 .gitignore 文件
+       <li>选择一个模板创建 license 文件
     </ul>
   ]]></change-notes>
 
