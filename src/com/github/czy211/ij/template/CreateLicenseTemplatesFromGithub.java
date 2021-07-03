@@ -23,16 +23,11 @@ public class CreateLicenseTemplatesFromGithub {
   private static void createLicenseTemplate(String name, String url) {
     JsonObject jsonObject = getJsonElementFromUrl(url).getAsJsonObject();
     String body = jsonObject.get("body").getAsString();
-    URL classUrl = CreateLicenseTemplatesFromGithub.class.getResource("");
-    if (classUrl != null) {
-      String path = classUrl.getPath();
-      String projectPath = path.substring(0, path.indexOf("/out/"));
-      File file = new File(projectPath + "/resources/fileTemplates/j2ee/" + name + ".txt.ft");
-      try {
-        FileUtil.writeToFile(file, body);
-      } catch (IOException e) {
-        e.printStackTrace();
-      }
+    File file = new File("resources/fileTemplates/j2ee/" + name + ".txt.ft");
+    try {
+      FileUtil.writeToFile(file, body);
+    } catch (IOException e) {
+      e.printStackTrace();
     }
   }
 
