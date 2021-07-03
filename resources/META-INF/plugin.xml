@@ -38,6 +38,7 @@
     <internalFileTemplate name="MyBatis Mapper"/>
     <internalFileTemplate name="HTML"/>
     <defaultLiveTemplatesProvider implementation="com.github.czy211.ij.template.UserLiveTemplateProvider"/>
+    <fileTemplateGroup implementation="com.github.czy211.ij.template.LicenseTemplateGroupDescriptorFactory"/>
   </extensions>
 
   <actions>
