@@ -7,8 +7,8 @@ import com.intellij.openapi.actionSystem.LangDataKeys;
 import com.intellij.openapi.actionSystem.Presentation;
 import com.intellij.openapi.project.Project;
 
-public class TemplatesGroup extends DefaultActionGroup {
-  public TemplatesGroup() {
+public class TemplateGroup extends DefaultActionGroup {
+  public TemplateGroup() {
     super("Templates", true);
   }
 
