@@ -11,4 +11,10 @@
       <option name="JAVA_DECLARATION" value="true"/>
     </context>
   </template>
+  <template name="utf" value="&lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;"
+            description="Set encoding to UTF-8" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="MAVEN" value="true"/>
+    </context>
+  </template>
 </templateSet>
