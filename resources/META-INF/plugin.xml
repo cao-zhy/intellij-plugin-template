@@ -28,7 +28,7 @@
   ]]></change-notes>
 
   <!-- please see https://plugins.jetbrains.com/docs/intellij/build-number-ranges.html for description -->
-  <idea-version since-build="173.0"/>
+  <idea-version since-build="173.46"/>
 
   <!-- please see https://plugins.jetbrains.com/docs/intellij/plugin-compatibility.html
        on how to target different products -->
