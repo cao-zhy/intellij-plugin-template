@@ -6,16 +6,12 @@ A plugin for IntelliJ IDEA, add some file templates and live templates.
 
 ## 更新日志 Changelog
 
-### v1.1.0
+### v1.2.0
 
-初始化模块：
-
-- 创建 README.md 文件
-- 创建 .gitignore 文件
-- 选择一个模板创建 license 文件
-
-Initialize module with:
-
-- Add a README.md file
-- Add .gitignore
-- Choose a license
+- 修改支持的 IDE 版本为 173.46+
+- 恢复从模板创建 EditorConfig 文件的功能
+- 添加 Maven 实时模板 "utf"
+<br><br>
+- IDE version require 173.46+
+- Create EditorConfig file from template
+- Add Maven live template "utf"

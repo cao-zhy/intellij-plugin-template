@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.github.czy211.ij.template</id>
   <name>Template</name>
-  <version>1.1.0</version>
+  <version>1.2.0</version>
   <vendor email="czy211@hotmail.com" url="https://github.com/czy211">caozhy</vendor>
 
   <description><![CDATA[
@@ -11,19 +11,16 @@
   ]]></description>
 
   <change-notes><![CDATA[
-    <h3>v1.1.0</h3>
-    Initialize module with:
+    <h3>v1.2.0</h3>
     <ul>
-      <li>Add a README.md file
-      <li>Add .gitignore
-      <li>Choose a license
+      <li>IDE version require 173.46+
+      <li>Create EditorConfig file from template
+      <li>Add Maven live template "utf"
     </ul>
-    <br><br>
-    初始化模块：
     <ul>
-       <li>创建 README.md 文件
-       <li>创建 .gitignore 文件
-       <li>选择一个模板创建 license 文件
+       <li>修改支持的 IDE 版本为 173.46+
+       <li>恢复从模板创建 EditorConfig 文件的功能
+       <li>添加 Maven 实时模板 "utf"
     </ul>
   ]]></change-notes>
 
