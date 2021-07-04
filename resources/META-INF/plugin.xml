@@ -55,6 +55,10 @@
               id="com.github.czy211.ij.template.CreateHtmlFileAction">
         <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
       </action>
+      <action class="com.github.czy211.ij.template.CreateEditorConfigFileAction"
+              id="com.github.czy211.ij.template.CreateEditorConfigFileAction">
+        <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
+      </action>
     </group>
     <action class="com.github.czy211.ij.template.InitModuleAction" id="com.github.czy211.ij.template.InitModuleAction">
       <add-to-group group-id="FileOpenGroup" relative-to-action="CloseProject" anchor="before"/>
