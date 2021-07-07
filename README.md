@@ -6,12 +6,12 @@ A plugin for IntelliJ IDEA, add some file templates and live templates.
 
 ## 更新日志 Changelog
 
-### v1.2.0
+### v1.3.0
 
-- 修改支持的 IDE 版本为 173.46+
-- 恢复从模板创建 EditorConfig 文件的功能
-- 添加 Maven 实时模板 "utf"
+- 从模板创建 log4j2 配置文件
+- 删除 EditorConfig 模板中的 ident_style 属性
+- 修复 **File and Code Templates** 没有显示 EditorConfig 模板的问题
 <br><br>
-- IDE version require 173.46+
-- Create EditorConfig file from template
-- Add Maven live template "utf"
+- Create log4j2 config file from template
+- Remove EditorConfig property "indent_style"
+- Fix EditorConfig template is not displayed in **File and Code Templates**
