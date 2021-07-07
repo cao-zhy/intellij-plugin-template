@@ -4,7 +4,6 @@ import com.intellij.icons.AllIcons;
 import com.intellij.ide.IdeView;
 import com.intellij.openapi.actionSystem.AnAction;
 import com.intellij.openapi.actionSystem.AnActionEvent;
-import com.intellij.openapi.actionSystem.DataContext;
 import com.intellij.openapi.actionSystem.LangDataKeys;
 import com.intellij.openapi.project.Project;
 import com.intellij.psi.PsiDirectory;
@@ -16,8 +15,7 @@ public class CreateHtmlFileAction extends AnAction {
 
   @Override
   public void actionPerformed(AnActionEvent e) {
-    DataContext dataContext = e.getDataContext();
-    IdeView view = LangDataKeys.IDE_VIEW.getData(dataContext);
+    IdeView view = LangDataKeys.IDE_VIEW.getData(e.getDataContext());
     if (view == null) {
       return;
     }
