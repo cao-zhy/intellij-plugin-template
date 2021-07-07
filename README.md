@@ -6,12 +6,10 @@ A plugin for IntelliJ IDEA, add some file templates and live templates.
 
 ## 更新日志 Changelog
 
-### v1.3.0
+### v1.3.1
 
-- 从模板创建 log4j2 配置文件
-- 删除 EditorConfig 模板中的 ident_style 属性
-- 修复 **File and Code Templates** 没有显示 EditorConfig 模板的问题
+- 当 Log4j-config.xsd 文件不存在时才会创建该文件
+- 修复 Log4j-config.xsd 没有按照 EditorConfig 格式化的问题
 <br><br>
-- Create log4j2 config file from template
-- Remove EditorConfig property "indent_style"
-- Fix EditorConfig template is not displayed in **File and Code Templates**
+- The Log4j-config.xsd file will only be created when it doesn't exists 
+- Fix the Log4j-config.xsd file is not formatted according to EditorConfig
