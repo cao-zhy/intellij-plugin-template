@@ -21,10 +21,12 @@ public class CreateLog4j2ConfigFileAction extends AnAction {
     if (dir == null) {
       return;
     }
-    FileTemplate xsdTemplate = FileTemplateManager.getDefaultInstance().findInternalTemplate("Log4j2 Config Xsd");
     FileTemplate template = FileTemplateManager.getDefaultInstance().getInternalTemplate("Log4j2 Config");
     try {
-      CreateFileFromTemplateAction.createFileFromTemplate("Log4j-config", xsdTemplate, dir, null, false);
+      if (dir.getVirtualFile().findChild("Log4j-config.xsd") == null) {
+        FileTemplate xsdTemplate = FileTemplateManager.getDefaultInstance().findInternalTemplate("Log4j2 Config Xsd");
+        CreateFileFromTemplateAction.createFileFromTemplate("Log4j-config", xsdTemplate, dir, null, false);
+      }
       CreateFileFromTemplateAction.createFileFromTemplate("log4j2", template, dir, null, true);
     } catch (Exception ex) {
       Messages.showErrorDialog(e.getProject(), CreateElementActionBase.filterMessage(ex.getMessage()), "Error");
