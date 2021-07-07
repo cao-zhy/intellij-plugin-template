@@ -36,6 +36,8 @@
     <internalFileTemplate name="MyBatis Config"/>
     <internalFileTemplate name="MyBatis Mapper"/>
     <internalFileTemplate name="HTML"/>
+    <internalFileTemplate name="Log4j2 Config Xsd"/>
+    <internalFileTemplate name="Log4j2 Config"/>
     <defaultLiveTemplatesProvider implementation="com.github.czy211.ij.template.UserLiveTemplateProvider"/>
     <fileTemplateGroup implementation="com.github.czy211.ij.template.LicenseTemplateGroupDescriptorFactory"/>
   </extensions>
@@ -54,6 +56,10 @@
       </action>
       <action class="com.github.czy211.ij.template.CreateEditorConfigFileAction"
               id="com.github.czy211.ij.template.CreateEditorConfigFileAction">
+        <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
+      </action>
+      <action class="com.github.czy211.ij.template.CreateLog4j2ConfigFileAction"
+              id="com.github.czy211.ij.template.CreateLog4j2ConfigFileAction">
         <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
       </action>
     </group>
