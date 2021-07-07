@@ -6,10 +6,8 @@ A plugin for IntelliJ IDEA, add some file templates and live templates.
 
 ## 更新日志 Changelog
 
-### v1.3.1
+### v1.3.2
 
-- 当 Log4j-config.xsd 文件不存在时才会创建该文件
-- 修复 Log4j-config.xsd 没有按照 EditorConfig 格式化的问题
+- 修复创建 Log4j-config.xsd 时插件报错的问题
 <br><br>
-- The Log4j-config.xsd file will only be created when it doesn't exists 
-- Fix the Log4j-config.xsd file is not formatted according to EditorConfig
+- Fix error occurred when creating Log4j-config.xsd
