@@ -17,4 +17,11 @@
       <option name="MAVEN" value="true"/>
     </context>
   </template>
+  <template name="sbd"
+            value="&lt;dependency&gt;&#10;  &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;&#10;  &lt;artifactId&gt;spring-boot-dependencies&lt;/artifactId&gt;&#10;  &lt;version&gt;${springboot.version}&lt;/version&gt;&#10;  &lt;scope&gt;import&lt;/scope&gt;&#10;  &lt;type&gt;pom&lt;/type&gt;&#10;&lt;/dependency&gt;"
+            description="Add spring boot dependencies" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="MAVEN" value="true"/>
+    </context>
+  </template>
 </templateSet>
