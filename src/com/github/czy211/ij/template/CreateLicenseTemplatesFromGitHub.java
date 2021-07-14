@@ -12,7 +12,7 @@ import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CreateLicenseTemplatesFromGithub {
+public class CreateLicenseTemplatesFromGitHub {
   public static void main(String[] args) {
     Map<String, String> templateMap = getTemplateMap();
     for (Map.Entry<String, String> entry : templateMap.entrySet()) {

@@ -15,8 +15,8 @@ import com.intellij.psi.PsiManager;
 import java.util.HashSet;
 import java.util.Set;
 
-public class InitModuleAction extends AnAction {
-  public InitModuleAction() {
+public class InitializeModuleAction extends AnAction {
+  public InitializeModuleAction() {
     super("Initialize Module", "Create README.md, .gitignore, LICENSE.txt files", null);
   }
 
@@ -25,7 +25,7 @@ public class InitModuleAction extends AnAction {
     // 未选择文件和文件夹或选择了不同文件夹的多个文件时，也可以初始化模块，创建自定义方法获取创建创建的位置
     PsiDirectory dir = getOrChooseDirectory(e);
     if (dir != null) {
-      new InitModuleDialog(dir).show();
+      new InitializeModuleDialog(dir).show();
     }
   }
 

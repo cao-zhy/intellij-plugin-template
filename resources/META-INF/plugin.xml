@@ -60,7 +60,8 @@
         <add-to-group group-id="com.github.czy211.ij.template.TemplateGroup"/>
       </action>
     </group>
-    <action class="com.github.czy211.ij.template.InitModuleAction" id="com.github.czy211.ij.template.InitModuleAction">
+    <action class="com.github.czy211.ij.template.InitializeModuleAction"
+            id="com.github.czy211.ij.template.InitializeModuleAction">
       <add-to-group group-id="FileOpenGroup" relative-to-action="CloseProject" anchor="before"/>
       <add-to-group group-id="ProjectViewPopupMenu" anchor="first"/>
       <add-to-group group-id="NewGroup" relative-to-action="NewFromTemplate" anchor="before"/>

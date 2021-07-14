@@ -22,13 +22,13 @@ import javax.swing.*;
 import java.awt.*;
 import java.io.File;
 
-public class InitModuleDialog extends DialogWrapper {
+public class InitializeModuleDialog extends DialogWrapper {
   private final PsiDirectory dir;
   private JBCheckBox readmeCheck;
   private JBCheckBox gitignoreCheck;
   private JComboBox<String> licenseCombo;
 
-  public InitModuleDialog(@NotNull PsiDirectory dir) {
+  public InitializeModuleDialog(@NotNull PsiDirectory dir) {
     super(true);
     this.dir = dir;
     setTitle("Initialize Module");

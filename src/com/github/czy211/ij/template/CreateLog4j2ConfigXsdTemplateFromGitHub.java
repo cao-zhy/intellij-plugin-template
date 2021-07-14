@@ -4,7 +4,7 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.*;
 import java.net.URL;
 
-public class CreateLog4j2ConfigXsdTemplateFromGithub {
+public class CreateLog4j2ConfigXsdTemplateFromGitHub {
   public static void main(String[] args) {
     File file = new File("resources/fileTemplates/internal/Log4j2 Config Xsd.xsd.ft");
     try (PrintWriter writer = new PrintWriter(file, "UTF-8")) {
