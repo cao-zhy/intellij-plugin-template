@@ -21,8 +21,8 @@ public class CreateMyBatisFileAction extends CreateFileFromTemplateAction {
   @Override
   protected void buildDialog(Project project, PsiDirectory directory, CreateFileFromTemplateDialog.Builder builder) {
     builder.setTitle("New MyBatis File")
-      .addKind("MyBatis Mapper file", AllIcons.FileTypes.Xml, "MyBatis Mapper")
-      .addKind("MyBatis Config file", AllIcons.FileTypes.Xml, "MyBatis Config");
+        .addKind("MyBatis Mapper file", AllIcons.FileTypes.Xml, "MyBatis Mapper")
+        .addKind("MyBatis Config file", AllIcons.FileTypes.Xml, "MyBatis Config");
   }
 
   @Override

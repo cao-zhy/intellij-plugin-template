@@ -92,7 +92,7 @@ public class InitializeModuleDialog extends DialogWrapper {
     PsiFile license = null;
     if (!"".equals(licenseCombo.getSelectedItem())) {
       FileTemplate template = FileTemplateManager.getDefaultInstance().getJ2eeTemplate(String.valueOf(licenseCombo
-        .getSelectedItem()));
+          .getSelectedItem()));
       try {
         license = FileTemplateUtil.createFromTemplate(template, "LICENSE", null, dir).getContainingFile();
       } catch (Exception e) {
