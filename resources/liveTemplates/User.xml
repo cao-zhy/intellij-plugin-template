@@ -24,4 +24,80 @@
       <option name="MAVEN" value="true"/>
     </context>
   </template>
+  <template name="B5"
+            value="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;"
+            description="Adds Bootstrap v5 meta viewport" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B4"
+            value="&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1, shrink-to-fit=no&quot;&gt;&#10;"
+            description="Adds Bootstrap v4 meta viewport" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B3"
+            value="&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;&#10;&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1&quot;&gt;&#10;"
+            description="Adds Bootstrap v3 meta viewport" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B5css"
+            value="&lt;link href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css&quot; rel=&quot;stylesheet&quot;&#10;      integrity=&quot;sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC&quot; crossorigin=&quot;anonymous&quot;&gt;"
+            description="Imports Bootstrap v5 CSS" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B4css"
+            value="&lt;link rel=&quot;stylesheet&quot; href=&quot;https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css&quot;&#10;      integrity=&quot;sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l&quot; crossorigin=&quot;anonymous&quot;&gt;"
+            description="Imports Bootstrap v4 CSS" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B3css"
+            value="&lt;link rel=&quot;stylesheet&quot; href=&quot;https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css&quot;&#10;      integrity=&quot;sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu&quot; crossorigin=&quot;anonymous&quot;&gt;"
+            description="Imports Bootstrap v3 CSS" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="jquery"
+            value="&lt;script src=&quot;https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js&quot;&#10;        integrity=&quot;sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;"
+            description="Imports JQuery" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B5js"
+            value="&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js&quot;&#10;        integrity=&quot;sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM&quot;&#10;        crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;"
+            description="Imports Bootstrap v5 JavaScript" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B4js"
+            value="&lt;script src=&quot;https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js&quot;&#10;        integrity=&quot;sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns&quot;&#10;        crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;"
+            description="Imports Bootstrap v4 JavaScript" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="B3js"
+            value="&lt;script src=&quot;https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js&quot;&#10;        integrity=&quot;sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd&quot;&#10;        crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;"
+            description="Imports Bootstrap v3 JavaScript" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
+  <template name="thymeleaf" value="xmlns:th=&quot;http://www.thymeleaf.org&quot;"
+            description="Adds namespace thymeleaf" toReformat="true" toShortenFQNames="false">
+    <context>
+      <option name="HTML" value="true"/>
+    </context>
+  </template>
 </templateSet>
